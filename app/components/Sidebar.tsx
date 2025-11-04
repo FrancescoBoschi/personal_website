@@ -31,7 +31,7 @@ export default function Sidebar() {
             className="px-4 py-1 text-sm"
             containerClassName="inline-block"
           >
-            Software Developer
+            Data/AI Engineer
           </MovingBorderDiv>
         </div>
 
