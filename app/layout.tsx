@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
-  description: "Software Developer Portfolio",
+  title: "Francesco Boschi - Data Engineer & AI Developer",
+  description: "Data Engineer at Technogym specializing in cloud data platforms, ETL pipelines, and AI solutions. Building intelligent data systems on Google Cloud Platform.",
+  keywords: ["Data Engineer", "AI Developer", "Google Cloud Platform", "Machine Learning", "ETL", "Python", "TypeScript"],
+  authors: [{ name: "Francesco Boschi" }],
+  openGraph: {
+    title: "Francesco Boschi - Data Engineer & AI Developer",
+    description: "Data Engineer at Technogym specializing in cloud data platforms, ETL pipelines, and AI solutions.",
+    url: "https://personal-website-beryl-tau.vercel.app",
+    siteName: "Francesco Boschi Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Francesco Boschi - Data Engineer & AI Developer",
+    description: "Data Engineer at Technogym specializing in cloud data platforms, ETL pipelines, and AI solutions.",
+  },
 };
 
 export default function RootLayout({
